@@ -51,3 +51,35 @@ select{
 .img_vector1{
     margin-right: 13px;
 }
+.container_header{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.quick_search{
+    width: 396px;
+    height: 45px;
+    border:1px solid rgba(212, 212, 212, 1);
+    border-radius: 3px;
+    padding-left: 13px;
+}
+.img_search{
+      background-color: #d80000;
+      border: none;
+      color: white;
+      padding: 11px 12px;
+      cursor: pointer;
+      position: relative;
+      left: -52px;
+      bottom: -5px;
+      border-radius: 2px;
+}
+.cont_search{
+    position: relative;
+    right: -143px;
+}
+.logo_img{
+    align-items: center;
+    display: flex;
+}
