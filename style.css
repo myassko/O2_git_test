@@ -215,6 +215,12 @@ color:white;
   height: 12px;
 }
 
-
+.line{
+    width: 1px;
+    height: 32px;
+    background-color: #dcdcdc;
+    position: relative;
+    top: 10px;
+}
 
 
