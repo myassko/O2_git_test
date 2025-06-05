@@ -128,11 +128,20 @@ select{
     right: -13px;
     color: white;
 }
-.ul_product_category{
+.product_category{
     display: flex;
     width: 1100px;
     margin: 0 auto;
-    margin-top:28px;
+    margin-top:18px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    justify-content: space-between;
+}
+
+.ul_product_category{
+    display: flex;
+    padding: 0;
+
 }
 .ul_product_category a{
     font-family: Open Sans;
@@ -140,7 +149,7 @@ select{
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0%;
-    padding: 16px 24px;
+    padding: 16px ;
     display: flex;
     align-items: center;
 }
@@ -156,6 +165,56 @@ select{
     margin-right: 8px;
 
 }
+.catalog_text{
+    font-family: Open Sans;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color:white;
+
+}
+
+
+
+.burger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 14px;
+  color:white;
+}
+
+.burger-icon span {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  display: block;
+  border-radius: 1px;
+}
+
+
+
+.catalog-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 16px 21px;
+  background: rgba(224, 0, 27, 1);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.burger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16px;
+  height: 12px;
+}
+
 
 
 
